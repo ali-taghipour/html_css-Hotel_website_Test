@@ -1,0 +1,292 @@
+/* Reset */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main style */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+p{
+    margin: 20px 0;
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+/* Utility */
+.container{
+    margin: auto;
+    overflow: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+/* navbar */
+
+#navbar{
+    background: #333;
+    overflow: auto;
+}
+
+a{
+    color:#333;
+    text-decoration: none;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+    color:#fff;
+}
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #444;
+    color: #f7c08a;
+}
+
+#showcase{
+    background: url("../images/showcase.jpg") no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    text-align: center;
+    color: #fff;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.7em;
+}
+
+.primary-text{
+    color: #f7c08a;
+}
+
+.lead{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    background:#333;
+    padding: 13px 20px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #f7c08a;
+    color: #333;
+}
+
+.btn-light{
+    background:#fff;
+    color: #333;
+}
+
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width:50%;
+    background: url("../images/photo-1.jpg") no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width:50%;
+    height: 100%;
+    text-align: center;
+    padding:50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary{
+    background: #f7c08a;
+    color:#333;
+}
+
+/* Features */
+
+.box{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Footer */
+#main-footer{
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+    background: #444;
+
+}
+
+/* About */
+
+#about-info{
+    overflow: hidden;
+}
+
+#about-info .content-info{
+    float: left;
+    width:50%;
+    padding: 20px 50px;
+}
+
+#about-info .image-info{
+    float: right;
+    width:50%;
+    text-align: center;
+    padding: 40px;
+}
+
+#about-info .image-info img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+/* testimony */
+
+#testimony{
+    background: url("../images/test-bg.jpg") no-repeat center center/cover;
+    color:#fff;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.testimony-content{
+   max-width: 1100px;
+   padding: 0 20px;
+   margin: auto;
+}
+
+.testimony-content h1{
+    text-align: center;
+}
+
+.testimony-block{
+    background: #f7c08a;
+    border-radius: 7px;
+    padding:0px 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.testimony-block .img-container{
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.testimony-block .img-container img{
+    width:100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.testimony-block .message-container{
+    color:#333;
+}
+
+/*contact form */
+
+#contact-form{
+    padding: 20px 0;
+}
+
+.l-heading{
+    font-size: 30px;
+    padding-bottom: 0;
+}
+
+.form-group{
+    padding-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea{
+    display: block;
+    border: 1px solid #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width:90%;
+    font-size: 18px;
+}
+
+.form-group textarea{
+    height: 150px
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+    outline: none;
+}
+
+/* hotel info footer */
+
+#hotel-info{
+    overflow: hidden;
+}
